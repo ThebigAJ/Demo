@@ -12,8 +12,8 @@ public class Client {
     public static void main(String[] args) {
         RestTemplate restTemplate = new RestTemplate();
 
-        String serverHostname = "DESKTOP-VQN4Q8R";
-        String url = "https://" + serverHostname + ":8080/hello";
+        String serverHostname = "Anders";
+        String url = "http://" + serverHostname + ":8080/hello";
         String data = "Hello, Spring Boot!";
 
         HttpHeaders headers = new HttpHeaders();
