@@ -15,7 +15,7 @@ public class HelloController {
     private final List<String> receivedDataList = new ArrayList<>();
 
     @GetMapping("/hello")
-    public String hello() {return "Fuck dig bitch";}
+    public String hello() {return "Hello";}
 
     @PostMapping("/hello")
     public String receiveData(@RequestBody String data) {
